@@ -1,0 +1,321 @@
+*{
+	padding:0px;
+	margin:0px;
+	text-decoration: none;
+	list-style: none;
+}
+
+
+html, body {
+	height: 100%;
+}
+
+
+body{
+	font-family: Elephant ;
+	background-color: gray;
+	color:black;
+	width:100%;
+}
+
+
+#main-header{
+	background-color: black;
+}
+
+header{
+	align-items: top left;
+	padding: 0px;
+	position: relative;
+	width: 100%;
+	height: 15%;
+}
+
+header p{
+	float: right;
+	padding: 7px;
+	margin: 23px;
+}
+
+header input{
+	background-color: #ffb900;
+	border: 2px black solid;
+	padding: 5px;
+}
+
+header i{
+	color: #ffb900;
+}
+
+#main-nav{
+	background-color: black;
+	width:100%;
+}
+
+
+#list li{
+	text-decoration: none;
+	display: inline-block;
+	padding:15px;
+	margin:0;
+    position:relative;
+}
+
+
+#list li a{
+	color:#ffb900;
+	transition:all 0.1s ease;
+	font-size: 18px;
+	box-shadow: 1px 0px 0px #1c1c1c; 
+}
+
+
+#list li a:hover{
+	background-color: #ffb900;
+	color: black;
+	padding:15px;
+}
+
+#myBody{
+	display: inline-flex;
+}
+
+aside{
+	display:block;
+	width:20%;
+	background-color: #ffb900;
+	padding: 5px;
+	border: 2px black solid;
+	margin: 5px;
+}
+
+#myAside .table{
+	text-align: ;
+}
+
+#myAside .table h1{
+	color:#ffb900;
+	background-color: black;
+	padding: 2px;
+	margin:0px;
+	text-align: center;
+}
+
+
+#myAside .table h2{
+	text-align: center;
+	text-decoration: underline;
+	font-size:12px;
+	font-family: arial black;
+	padding: 5px;
+}
+
+#myAside .table p{
+	margin: 5px;
+	font-family: arial black;
+	font-size: 15px;
+	text-align: center;
+	border: 2px black solid;
+}
+
+#myAside .table p i{
+	color:red;
+	background-color: #ffb900;
+	font-size: 15px;
+}
+
+#myAside .table p1{
+	font-family: arial black;
+	font-size: 15px;
+}
+
+
+h1{
+	color:#ffb900;
+	background-color: black;
+	padding: 2px;
+	margin:0px;
+	text-align: center;
+}
+
+#myAside .title{
+	border: 2px black solid;
+	text-align: center;
+	display: block;
+	margin: 5px;
+}
+
+
+#myAside .title a{
+	color: black;
+	font-size: 15px;
+	text-align: center;
+}
+
+#myAside .title img{
+	width: 50%;
+}
+
+
+p1 .result{
+	text-align: center;
+}
+
+table{
+	margin: 7px;
+}
+
+th{
+	color:#ffb900;
+}
+
+
+tr td{
+	border:2px black solid;
+}
+
+.content{
+	text-align: center;
+}
+
+section{
+    width:90%;
+}
+
+#main-section .news{
+	text-align: left;
+	display: block;
+	border: 2px black solid;
+	margin: 5px;
+}
+
+#main-section .news h1{
+	color:black;
+	background-color: #ffb900;
+	padding: 5px;
+	margin:5px;
+	text-align: center;
+}
+
+#main-section .news p{
+	font-family: Arial black;
+	font-size: 17px;
+	color:black;
+}
+
+#main-section .news img{
+	float: right;
+	width:30%;
+}
+
+
+#main-footer{
+	background-color: black;
+	font-family: arial black;
+	position: relative;
+	color:#ffb900;
+}
+
+
+.logo{
+	box-shadow: 1px 2px 0px gray;
+}
+
+.socials{
+	box-shadow: 1px 2px 0px gray;
+}
+
+.socials h2{
+	padding: 7px;
+	text-decoration: underline;
+}
+
+
+#main-footer .socials{
+	color:#ffb900;
+	padding:15px;
+	text-align: center;
+}
+
+
+#main-footer .socials a{
+	color:#ffb900;
+	padding:25px;
+	margin: 10px;
+}
+
+#main-footer .socials a i{
+	color:#ffb900;
+	word-spacing: 2px;
+    font-size: 20px
+}
+
+#main-footer .socials a i:hover{
+	color:gray;
+}
+#main-footer .socials a i span{
+	color:gray;
+	font-size: 12px;
+	padding-right: 15px;
+	margin: 5px;
+}
+
+#main-footer .socials a i span:hover{
+	transform: 0.2s;
+	color:#ffb900;
+}
+
+
+#main-footer p{
+	background-color: gray;
+	color:black;
+}
+
+
+#main-footer .division{
+	display: inline-flex;
+	margin:30px;
+	padding:0px;
+	font-size: 18px;
+}
+
+
+#main-footer .navigation{
+	color:#ffb900;
+	padding:10px;
+	margin:20px;
+}
+
+
+#main-footer .navigation a{
+	color:#ffb900;
+	padding:2px;
+	margin: 2px;
+	display: block;
+	align-content: center;
+}
+
+
+#main-footer .navigation a:hover{
+	color:gray;
+	transform: 0.1s;
+}
+
+footer input{
+	background-color: #ffb900;
+	border: 2px black solid;
+	padding: 5px;
+}
+
+
+footer textarea{
+	background-color: #ffb900;
+	border: 2px black solid;
+	padding: 5px;
+}
+
+footer button{
+	background-color: #ffb900;
+	border: 2px black solid;
+	width: 25%;
+}
